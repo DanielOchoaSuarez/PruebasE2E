@@ -6,9 +6,16 @@
 
 Escenarios:
 
-- 1
-- 2
-- 3
+- Como usuario de ghost creo un nuevo miembro
+- Como usuario de ghost edito un miembro
+- Como usuario de ghost elimino un miembro
+- Como usuario de ghost creo un tag publico
+- Como usuario de ghost edito un tag publico
+- Como usuario de ghost elimino un tag publico
+- Como usuario de ghost creo un tag interno
+- Como usuario de ghost edito un tag interno
+- Como usuario de ghost elimino un tag interno
+- Como usuario de ghost configuro tema dark
 
 ### Versiones
 
@@ -20,6 +27,8 @@ La ejecución del test se realizó con las siguientes versiones:
 - cucumber 7.2.1
 - kraken-node 1.0.24
 - Android Debug Bridge adb 1.0.41
+- Ghost-CLI 1.23.1
+- Ghost 5.18.0
 
 ### Ejecutar la prueba Kraken
 
@@ -40,6 +49,7 @@ Debido a la restricción de la herramienta Kraken en Windows, se debe selecciona
 
 Para ejecutar el test es necesario ubicarse en la misma ruta del archivo package.json del proyecto y ejecutar los siguientes comandos:
 
+```
 npm i
-
 ./node_modules/kraken-node/bin/kraken-node run
+```
